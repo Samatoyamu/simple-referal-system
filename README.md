@@ -20,3 +20,13 @@ DEBUG = True
 SECRET_KEY = 'django-insecure-4523yw%i7547a-zrd5f2qzk_b-e!1f+nw(4)p!w+xr(zi*%sv8'
 ALLOWED_HOSTS = '*'
 ```
+### API комманды и эндпоинты
+
+Регистрация
+```
+http://127.0.0.1:8000/api/v1/signup
+{
+    "phone": "номер телефона",
+    "username": "имя пользователя"
+}
+```
